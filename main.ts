@@ -3,7 +3,7 @@ import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 // The Funniest One-Line Resignation Letter — the rate limit resigns by
 // approving the one request it was built to block. 69 characters, one line.
 const LINE =
-  "I resign. The request I was built to block just got approved \u2014 by me.";
+  "I resign. The 1,001st request I was built to block just got approved \u2014 by me.";
 
 // Gate (sealed scorer): UTF-8 text, 1-140 characters, not only whitespace,
 // a single line. Fail hard if the line ever violates it.
